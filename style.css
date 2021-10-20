@@ -19,6 +19,30 @@ header{
   
 }
 
+nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+  font-weight:bold;
+  font-size: 1rem;
+  
+}
+
+#reservation{
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 20rem;
+}
+
 .banner-wrapper{
   display: flex;
   align-items: center;
@@ -43,26 +67,18 @@ header{
   margin: auto 0;
 }
 
-nav{
-  height: 100%;
-  width: 100%;
+.about-content{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  background-color: #9ccf6c;
+  width: 90%;
+  height: 40rem;
+  margin: 0 auto;
 }
 
-nav a{
-  text-decoration: none;
-  color: white;
-  margin: 0.5rem;
-  font-weight:bold;
-  font-size: 1rem;
+.about-content img{
+  height: 25rem;
+  box-shadow: 10px 5px 5px black;
   
-}
-
-#reservation{
-  background-color: white;
-  padding: 1rem;
-  color: black;
-  border-radius: 20rem;
 }
