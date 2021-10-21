@@ -5,7 +5,7 @@ body{
 header{
   display: flex;
   height: 6rem;
-  background-color: #df1515;
+  background-color: #b72424;
   width: auto;
 }
 
@@ -55,11 +55,13 @@ nav a{
 
 .center-banner{
   display: flex;
-  height: 8rem;
+  height: 14rem;
   width: 100%;
   background-color: #ffffff80;
   justify-content: center;
 }
+
+
 
 .center-banner img{
   height: 95%;
@@ -77,8 +79,31 @@ nav a{
   margin: 0 auto;
 }
 
+.kanji-wrapper img{
+  width: 5rem;
+  height: 5rem;
+}
+.about-header-wrapper{
+  display: flex;
+  justify-content: end;
+}
+
+.about-header-wrapper h1{
+  
+}
+
 .about-content img{
   height: 25rem;
   box-shadow: 10px 5px 5px black;
   
+}
+
+.about-content-sub{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  background-color: #e9d94d;
+  width: 95%;
+  height: 40rem;
+  margin: 0 auto;
 }
